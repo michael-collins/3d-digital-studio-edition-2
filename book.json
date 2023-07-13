@@ -1,5 +1,5 @@
 {
-    "title": "Gitbook Autopublish Template",
+    "title": "3D Digital Studio Edition 2",
     "author": "Michael Collins",
     "language": "en",
     "plugins": [
@@ -12,7 +12,7 @@
     ],
     "pluginsConfig": {
         "github-edit": {
-            "repo": "michael-collins/gitbook-autopublish-template",
+            "repo": "michael-collins/3d-digital-studio-edition-2",
             "branch": "master"
         },
         "toolbar": {
@@ -21,13 +21,13 @@
                 {
                     "label": "Download PDF",
                     "icon": "fa fa-file-pdf-o",
-                    "url": "/gitbook-autopublish-template/exports/gitbook-autopublish-template.pdf",
+                    "url": "/3d-digital-studio-edition-2/exports/3d-digital-studio-edition-2.pdf",
                     "target": "_blank"
                 },
                 {
                     "label": "Download ebook",
                     "icon": "fa fa-book",
-                    "url": "/gitbook-autopublish-template/exports/gitbook-autopublish-template.epub",
+                    "url": "/3d-digital-studio-edition-2/exports/3d-digital-studio-edition-2.epub",
                     "target": "_blank"
                 }
                 
