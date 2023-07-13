@@ -1,7 +1,3 @@
-# Gitbook Publishing Template
+# 3D Digital Studio: Edition Two
 
-Fork the repo, write the book, publish to Git Pages. This template repo takes the labor out of hosting and publishing docs for free using open source Gitbook Legacy, Github Actions, and Github Pages.
-
-See the [publish.md](/publish.md) file for development and publishing instructions.
-
-See [Gitbook documentation](https://michaelcollins.xyz/gitbook-legacy-documentation/en/) for advanced configuration options. The original docs are located [here](https://github.com/GitbookIO/gitbook).
+In this book, I cover the theory, practice, and purpose related to the production of 3D animation and beyond. Included are projects, exercises, lectures, and tutorials meant to help students of the subject grow and be put on a pathway for mastery.
