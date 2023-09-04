@@ -1,5 +1,7 @@
 # 3D artists and studios
 
+* [M_Plummer-Fernández](https://www.plummerfernandez.com/)
+* [Universal Everything](https://www.universaleverything.com/)
 * [Zeitguised](https://www.zeitguised.com/)
 * [Al and Al](http://www.alandal.co.uk/)
 * [Albert Omoss](https://omoss.io/)
@@ -14,7 +16,7 @@
 * [Eva Papamargariti](https://evapapamargariti.tumblr.com/)
 * [Filip Tarczewski](https://vimeo.com/ftarczewski)
 * [Geoffrey Lillemon](http://www.geoffreylillemon.com/website/)
-* [Jacolby Satterwhite](http://jacolby.com/home.html)
+* [Jacolby Satterwhite](https://www.artsy.net/show/dallas-museum-of-art-concentrations-59-mirror-stage-visualizing-the-self-after-the-internet?sort=partner_show_position)
 * [Jesse Kanda](http://www.jessekanda.com/)
 * [John Butler](https://vimeo.com/user3946359)
 * [Jonathan Monaghan](http://jonmonaghan.com/)
@@ -25,3 +27,4 @@
 * [Mike Pelletier](http://mikepelletier.net/)
 * [Pussykrew](https://www.pussykrew.club/)
 * [Rick Silva](http://ricksilva.net/)
+* [Flavourcel Animation Collective](https://flavourcel.com/manifesto)
