@@ -25,6 +25,8 @@
 * Chapter 8: Rigging
 * Chapter 9: Simulation
 * Chapter 10: Compositing
+* Projects
+  * [Animation Project](pages/animation-project.md)
 * Exercises
   * Modeling
     * Beginner
