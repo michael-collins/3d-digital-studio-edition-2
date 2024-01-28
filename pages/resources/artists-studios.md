@@ -28,3 +28,4 @@
 * [Pussykrew](https://www.pussykrew.club/)
 * [Rick Silva](http://ricksilva.net/)
 * [Flavourcel Animation Collective](https://flavourcel.com/manifesto)
+* [Nikita Diakur](https://nikitadiakur.com/)
