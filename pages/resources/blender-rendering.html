@@ -1052,39 +1052,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div prefix="oer: http://oerschema.org/"><h1 id="rendering-resources-for-blender">Rendering resources for Blender</h1>
-<p>Rendering can take a very long time depending on and number of variables including your scene&apos;s complexity, lighting, software version, the number of shots you have to render, whether you&apos;ve optimized your scene or not, etc.</p>
-<p>If you have more than one computer available to use, it&apos;s best to split the rendering task into separate frame ranges. If all computers are equally performant, you can equally divide the number of frames you have by the number of computers. Open the scene up on each computer, set the frame range in the render settings, and run the renders. If you have access to a computer lab, at night they are typically empty, so you can spit the frames up by as many computers as there are available. 720 frames divided by 20 computers equals 36 frames per computer. If it takes 3 minutes per frame to render, that would be 108 minutes, or 1.8 hours. If you were to render this on one computer, it would take 36 hours!</p>
-<h2 id="optimize-your-scene">Optimize your scene</h2>
-<p>Do everything you can to lower render times. Always use the latest version of Blender, render times typically improve from version to version. I recommend using <strong>EEVEE</strong> to shorten render times. If using EEVEE, your scene will render much faster, though it may lose some visual quality compared to Cycles. If using Cycles, try to take advantage of the image <strong>denoising</strong> feature in the render settings. Balance the quality of the denoising with the <strong>samples quality</strong>. Typically, you can get a fairly low-samples render (128 or less) to look pretty good with denoising.</p>
-<p><strong>Further reading</strong></p>
-<ul>
-<li>Rendering in Cycles: [<a href="https://docs.blender.org/manual/en/latest/render/cycles/optimizations/index.html](https://docs.blender.org/manual/en/latest/render/cycles/optimizations/index.html" target="_blank">https://docs.blender.org/manual/en/latest/render/cycles/optimizations/index.html](https://docs.blender.org/manual/en/latest/render/cycles/optimizations/index.html</a> &quot;<a href="https://docs.blender.org/manual/en/latest/render/cycles/optimizations/index.html" target="_blank">https://docs.blender.org/manual/en/latest/render/cycles/optimizations/index.html</a>&quot;</li>
-</ul>
-<h2 id="use-more-than-one-computer-render-farms">Use more than one computer (Render farms)</h2>
-<p>Split renders up and <strong>use multiple computers</strong> you have physical access to. CPU render will give more consistent render results across computers, but GPU will render more quickly. You may notice visual differences between images rendered with the GPU from the CPU on the same computer. You will have to manually retrieve the frames from those computers, so it might be best for them to render directly to a shared cloud folder. Be very organized if you do this, it&apos;s easy to get confused with so many files.</p>
-<p>To take the burden off of managing files, you can use a paid <strong>add-on</strong> called <a href="https://www.conciergerender.com/" target="_blank">Crowd Render</a>. This plugin will ask you to enter the IP address of your computers to use them as a render node. The images will be automatically sent to your computer when completed. This only works with computers that you own.</p>
-<p>Another solution is to use an <strong>online render farm</strong>. Render farms have been expensive in the past, but have since come down in price and at the same time render engines have become more performant. What used to cost $150 to render a 30 second animation should now cost ~$20. I recommend looking at a range of rendering companies, starting with <a href="https://www.conciergerender.com/" target="_blank">Concierge Render</a>.</p>
-<p>If you have the budget and plan to do CGI in the future, it makes sense to <strong>invest in hardware</strong> like an nVidia RTX 30xx or 40xx series graphics card, which perform the best/$ at the time of this writing.</p>
-<h3 id="cloud-rendering-companies">Cloud rendering companies</h3>
-<ul>
-<li><a href="https://www.conciergerender.com/" title="https://www.conciergerender.com/" target="_blank">https://www.conciergerender.com/</a><ul>
-<li>Cycles and EEVEE</li>
-<li>Cost-effective cloud rendering solution</li>
-<li>$5 free credits</li>
-</ul>
-</li>
-<li><a href="https://blendergrid.com/" title="https://blendergrid.com/" target="_blank">Blendgrid</a></li>
-<li><a href="https://render.st/" title="https://render.st/" target="_blank">https://render.st/</a><ul>
-<li>Cycles only</li>
-<li>Unlimited $50/month</li>
-</ul>
-</li>
-</ul>
-<h3 id="network-rendering-plugin">Network rendering plugin</h3>
-<ul>
-<li><a href="https://www.crowd-render.com/" title="https://www.crowd-render.com/" target="_blank">https://www.crowd-render.com/</a></li>
-</ul>
+                                <div prefix="oer: http://oerschema.org/"><h1 id="rendering-resources">Rendering Resources</h1>
 </div>
                                 
                                 </section>
@@ -1128,7 +1096,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Rendering Resources","level":"1.15.5","depth":2,"next":{"title":"Rendering Photorealism","level":"1.15.6","depth":2,"path":"pages/resources/rendering-photorealism.md","ref":"pages/resources/rendering-photorealism.md","articles":[]},"previous":{"title":"Blender Plugins","level":"1.15.4","depth":2,"path":"pages/resources/blender-plugins.md","ref":"pages/resources/blender-plugins.md","articles":[]},"dir":"ltr"},"config":{"plugins":["oerschema","video","codeblock-disable-glossary","github-edit","-sharing","toolbar"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-edit":{"repo":"michael-collins/3d-digital-studio-edition-2","branch":"master"},"video":{},"toolbar":{"buttons":[{"label":"Download PDF","icon":"fa fa-file-pdf-o","url":"/3d-digital-studio-edition-2/exports/3d-digital-studio-edition-2.pdf","target":"_blank"},{"label":"Download ebook","icon":"fa fa-book","url":"/3d-digital-studio-edition-2/exports/3d-digital-studio-edition-2.epub","target":"_blank"}]},"oerschema":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Michael Collins","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"3D Digital Studio Edition 2","language":"en","gitbook":"*"},"file":{"path":"pages/resources/blender-rendering.md","mtime":"2024-01-28T22:36:50.161Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-01-28T22:37:20.255Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Rendering Resources","level":"1.15.5","depth":2,"next":{"title":"Rendering Photorealism","level":"1.15.6","depth":2,"path":"pages/resources/rendering-photorealism.md","ref":"pages/resources/rendering-photorealism.md","articles":[]},"previous":{"title":"Blender Plugins","level":"1.15.4","depth":2,"path":"pages/resources/blender-plugins.md","ref":"pages/resources/blender-plugins.md","articles":[]},"dir":"ltr"},"config":{"plugins":["oerschema","video","codeblock-disable-glossary","github-edit","-sharing","toolbar"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-edit":{"repo":"michael-collins/3d-digital-studio-edition-2","branch":"master"},"video":{},"toolbar":{"buttons":[{"label":"Download PDF","icon":"fa fa-file-pdf-o","url":"/3d-digital-studio-edition-2/exports/3d-digital-studio-edition-2.pdf","target":"_blank"},{"label":"Download ebook","icon":"fa fa-book","url":"/3d-digital-studio-edition-2/exports/3d-digital-studio-edition-2.epub","target":"_blank"}]},"oerschema":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Michael Collins","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"3D Digital Studio Edition 2","language":"en","gitbook":"*"},"file":{"path":"pages/resources/blender-rendering.md","mtime":"2024-01-28T22:38:40.860Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-01-28T22:38:46.619Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
